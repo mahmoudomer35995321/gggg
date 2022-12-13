@@ -1,0 +1,142 @@
+.photo {
+    background-image: url("tree.png");
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    /* background-attachment: fixed;  */
+    color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    background-position: center;
+
+}
+
+.one {
+    font-size: 50px;
+}
+
+.show {
+    height: fit-content;
+}
+
+
+
+
+
+.flexone,
+.flextwo,
+.flexthird {
+    border: 2px solid rgb(159, 180, 130);
+    width: 200px;
+    height: 365px;
+    margin-top: 7px;
+
+
+}
+
+.personal {
+    background-color: rgb(78, 133, 133);
+    color: rgb(239, 231, 247);
+    border-radius: 9px;
+
+}
+
+.personal p {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.word {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    text-transform: capitalize;
+
+}
+
+.word div p {
+    width: 400px;
+    font-size: 17px;
+}
+
+input {
+    border-radius: 20px;
+    background-color: rgb(185, 185, 179);
+    font-size: 20px;
+    position: relative;
+    top: 11px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 9px;
+    width: 90px;
+    color: rgb(42, 119, 119);
+    border: 2px solid rgb(172, 172, 136);
+}
+
+.flex .show .personal p {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.show {
+    background-color: rgb(190, 190, 82);
+    border-radius: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: #84837c 0px 0px 21px 2px;
+}
+
+/* .show .color:hover{ 
+    background-color: rgb(93, 148, 79);
+}
+*/
+.show .color p {
+
+    border-bottom: 3px solid white;
+
+    margin: 0px;
+    padding: 15px;
+
+}
+
+.name {
+    animation-name: animate__zoomInDown;
+}
+
+.flex .show .color p:hover {
+    background-color: rgb(128, 77, 112);
+}
+
+input:hover {
+    background-color: #8b845d;
+}
+
+.personal:hover {
+    background-color: black;
+    background-size: 50px;
+    margin: 10px;
+}
+
+.show:hover {
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+@media (min-width: 600) {
+
+    .personal:hover {
+        
+        margin: 11px;
+    }
+
+}
